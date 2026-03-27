@@ -1,6 +1,6 @@
 'use client'
 import { useLocale } from 'next-intl'
-import { useRouter, usePathname } from 'next/navigation'
+import { useRouter, usePathname } from '@/i18n/navigation'
 import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import { LOCALE_LABELS, LOCALES, type Locale } from '@/lib/constants'
@@ -13,17 +13,7 @@ export function LanguageSwitcher() {
 
   function switchLocale(next: Locale) {
     setOpen(false)
-    const segments = pathname.split('/')
-    const isLocaleSegment = LOCALES.includes(segments[1] as Locale)
-    if (next === 'tr') {
-      const newPath = isLocaleSegment ? '/' + segments.slice(2).join('/') : pathname
-      router.push(newPath || '/')
-    } else {
-      const newPath = isLocaleSegment
-        ? '/' + next + '/' + segments.slice(2).join('/')
-        : '/' + next + pathname
-      router.push(newPath)
-    }
+    router.replace(pathname, { locale: next })
   }
 
   return (

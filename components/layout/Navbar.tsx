@@ -1,19 +1,14 @@
 'use client'
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
-import { useLocale, useTranslations } from 'next-intl'
+import { useTranslations } from 'next-intl'
 import { Menu, X } from 'lucide-react'
+import { Link } from '@/i18n/navigation'
 import { LanguageSwitcher } from '@/components/ui/LanguageSwitcher'
 import { BRAND_NAME } from '@/lib/constants'
 
-function localePath(locale: string, path: string) {
-  return locale === 'tr' ? path : `/${locale}${path}`
-}
-
 export function Navbar() {
   const t = useTranslations('common.nav')
-  const locale = useLocale()
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
 
@@ -24,10 +19,10 @@ export function Navbar() {
   }, [])
 
   const links = [
-    { label: t('home'), href: localePath(locale, '/') },
-    { label: t('about'), href: localePath(locale, '/hakkimizda') },
-    { label: t('services'), href: localePath(locale, '/hizmetler') },
-    { label: t('contact'), href: localePath(locale, '/iletisim') },
+    { label: t('home'), href: '/' as const },
+    { label: t('about'), href: '/hakkimizda' as const },
+    { label: t('services'), href: '/hizmetler' as const },
+    { label: t('contact'), href: '/iletisim' as const },
   ]
 
   return (
@@ -37,7 +32,7 @@ export function Navbar() {
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link href={localePath(locale, '/')} className="flex items-center gap-2.5">
+        <Link href="/" className="flex items-center gap-2.5">
           <Image src="/logo_mark.png" alt={BRAND_NAME} width={36} height={36} className="object-contain" />
           <span className="text-white font-bold text-lg tracking-tight">{BRAND_NAME}</span>
         </Link>
@@ -54,7 +49,7 @@ export function Navbar() {
           ))}
           <LanguageSwitcher />
           <Link
-            href={localePath(locale, '/#teklif')}
+            href="/#teklif"
             className="bg-gold text-navy font-semibold text-sm px-5 py-2 rounded-full hover:bg-gold-light transition-colors"
           >
             {t('cta')}
@@ -83,7 +78,7 @@ export function Navbar() {
           ))}
           <div className="px-6 py-4">
             <Link
-              href={localePath(locale, '/#teklif')}
+              href="/#teklif"
               onClick={() => setMobileOpen(false)}
               className="block text-center bg-gold text-navy font-semibold text-sm px-5 py-3 rounded-full"
             >

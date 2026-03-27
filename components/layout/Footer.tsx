@@ -1,16 +1,11 @@
 import Image from 'next/image'
-import Link from 'next/link'
-import { getTranslations, getLocale } from 'next-intl/server'
+import { getTranslations } from 'next-intl/server'
 import { BRAND_NAME } from '@/lib/constants'
 import { Ship, Shield, Award, Globe } from 'lucide-react'
-
-function localePath(locale: string, path: string) {
-  return locale === 'tr' ? path : `/${locale}${path}`
-}
+import { Link } from '@/i18n/navigation'
 
 export async function Footer() {
   const t = await getTranslations('common')
-  const locale = await getLocale()
   const currentYear = new Date().getFullYear()
 
   return (
@@ -44,10 +39,10 @@ export async function Footer() {
           <h4 className="text-white font-semibold mb-4">Sayfalar</h4>
           <ul className="space-y-2 text-sm">
             {[
-              { label: t('nav.home'), href: localePath(locale, '/') },
-              { label: t('nav.about'), href: localePath(locale, '/hakkimizda') },
-              { label: t('nav.services'), href: localePath(locale, '/hizmetler') },
-              { label: t('nav.contact'), href: localePath(locale, '/iletisim') },
+              { label: t('nav.home'), href: '/' as const },
+              { label: t('nav.about'), href: '/hakkimizda' as const },
+              { label: t('nav.services'), href: '/hizmetler' as const },
+              { label: t('nav.contact'), href: '/iletisim' as const },
             ].map(link => (
               <li key={link.href}>
                 <Link href={link.href} className="hover:text-gold transition-colors">{link.label}</Link>

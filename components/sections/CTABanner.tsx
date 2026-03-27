@@ -1,16 +1,11 @@
 'use client'
-import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { useTranslations, useLocale } from 'next-intl'
+import { useTranslations } from 'next-intl'
 import { ArrowRight } from 'lucide-react'
-
-function localePath(locale: string, path: string) {
-  return locale === 'tr' ? path : `/${locale}${path}`
-}
+import { Link } from '@/i18n/navigation'
 
 export function CTABanner() {
   const t = useTranslations('home')
-  const locale = useLocale()
 
   return (
     <section className="py-20 bg-navy relative overflow-hidden">
@@ -24,7 +19,7 @@ export function CTABanner() {
           <h2 className="font-bold text-white mb-4">{t('cta_title')}</h2>
           <p className="text-white/70 mb-8 max-w-xl mx-auto">{t('cta_subtitle')}</p>
           <Link
-            href={localePath(locale, '/#teklif')}
+            href="/#teklif"
             className="inline-flex items-center gap-2 bg-gold text-navy font-bold px-10 py-4 rounded-full hover:bg-gold-light transition-all hover:scale-105 shadow-xl"
           >
             {t('cta_button')}

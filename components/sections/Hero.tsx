@@ -1,17 +1,12 @@
 'use client'
 import Image from 'next/image'
-import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { useTranslations, useLocale } from 'next-intl'
+import { useTranslations } from 'next-intl'
 import { ArrowRight, ChevronDown } from 'lucide-react'
-
-function localePath(locale: string, path: string) {
-  return locale === 'tr' ? path : `/${locale}${path}`
-}
+import { Link } from '@/i18n/navigation'
 
 export function Hero() {
   const t = useTranslations('home.hero')
-  const locale = useLocale()
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -44,14 +39,14 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href={localePath(locale, '/#teklif')}
+              href="/#teklif"
               className="inline-flex items-center gap-2 bg-gold text-navy font-semibold px-8 py-3.5 rounded-full hover:bg-gold-light transition-all hover:scale-105 shadow-lg"
             >
               {t('cta_primary')}
               <ArrowRight size={18} />
             </Link>
             <Link
-              href={localePath(locale, '/hizmetler')}
+              href="/hizmetler"
               className="inline-flex items-center gap-2 glass text-white font-medium px-8 py-3.5 rounded-full hover:bg-white/20 transition-all"
             >
               {t('cta_secondary')}
