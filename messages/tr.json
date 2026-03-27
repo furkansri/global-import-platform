@@ -54,7 +54,36 @@
     "trust_subtitle": "Uluslararası standartlarda, belgeli ve şeffaf süreçlerle",
     "cta_title": "Hemen Teklif Alın",
     "cta_subtitle": "Rakiplerinizden önce avantajlı fiyatlarla tedarik yapın.",
-    "cta_button": "Ücretsiz Görüşme Başlat"
+    "cta_button": "Ücretsiz Görüşme Başlat",
+    "team": {
+      "label": "Ekibimiz",
+      "title": "Güçlü Ekip, Güvenilir Hizmet",
+      "subtitle": "İstanbul ve Çin ofislerimizden oluşan uzman ekibimizle her adımda yanınızdayız.",
+      "team_ceo": "Genel Müdür",
+      "team_china_ops": "Çin Operasyon Direktörü",
+      "team_qc": "Kalite Kontrol Müdürü",
+      "team_crm": "Müşteri İlişkileri Müdürü"
+    },
+    "testimonials": {
+      "label": "Müşteri Yorumları",
+      "title": "Müşterilerimiz Ne Diyor?",
+      "items": [
+        { "text": "Tekstil hammaddesi ithalatımızda GlobalBridge desteğiyle hem maliyet avantajı sağladık hem de teslim sürelerini önemli ölçüde kısalttık. Gümrük süreçlerini tamamen üstlendiler.", "name": "Kemal Arslan", "company": "Arslan Tekstil", "city": "Bursa" },
+        { "text": "Çin'den elektronik ürün tedarikinde yaşadığımız kalite sorunlarını fabrika denetim hizmetleriyle tamamen çözdük. Artık her partide istediğimiz standardı alıyoruz.", "name": "Selin Çelik", "company": "TechPlus A.Ş.", "city": "İstanbul" },
+        { "text": "Ekip çok profesyonel ve ulaşılabilir. WhatsApp üzerinden anlık bilgilendirme yapıyorlar, kafamızda soru işareti kalmıyor. Kesinlikle tavsiye ederim.", "name": "Murat Öztürk", "company": "Öztürk Ticaret Ltd.", "city": "İzmir" }
+      ]
+    },
+    "faq": {
+      "label": "Sıkça Sorulan Sorular",
+      "title": "Aklınızdaki Sorular",
+      "items": [
+        { "q": "Minimum sipariş miktarı nedir?", "a": "Ürün kategorisine göre değişmektedir. Hava kargo için daha küçük partiler kabul edilirken, deniz kargo için FCL veya LCL seçenekleri sunulmaktadır. Detaylar için bizimle iletişime geçin." },
+        { "q": "Gümrük işlemlerini siz mi yürütüyorsunuz?", "a": "Evet, tüm gümrük süreçlerini baştan sona yönetiyoruz. GTİP tespitinden belge hazırlamaya, tarife optimizasyonundan gümrük çıkışına kadar deneyimli ekibimiz üstleniyor." },
+        { "q": "Çin'den Türkiye'ye teslimat süresi ne kadar?", "a": "Deniz yoluyla ortalama 25-35 iş günü, hava kargoyla 5-7 iş günüdür. Sizi her adımda anlık olarak bilgilendiriyoruz." },
+        { "q": "Tedarikçi fabrikalarını denetliyor musunuz?", "a": "Evet, Çin'deki ofisimiz aracılığıyla fabrika ziyaretleri ve kalite kontrol denetimleri yapıyoruz. İlk sevkiyattan önce numune onayı gerçekleştiriyoruz." },
+        { "q": "Ödeme koşulları nasıl işliyor?", "a": "Akreditif (L/C), havale (T/T) ve diğer uluslararası ödeme yöntemlerini destekliyoruz. Her müşteriye özel ödeme planı oluşturabiliyoruz." }
+      ]
+    }
   },
   "about": {
     "hero_title": "Hakkımızda",

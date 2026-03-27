@@ -54,7 +54,36 @@
     "trust_subtitle": "Transparent processes backed by international standards",
     "cta_title": "Get Your Quote Now",
     "cta_subtitle": "Source at competitive prices before your competitors do.",
-    "cta_button": "Start Free Consultation"
+    "cta_button": "Start Free Consultation",
+    "team": {
+      "label": "Our Team",
+      "title": "Expert Team, Reliable Service",
+      "subtitle": "Our dedicated team in Istanbul and China offices is with you at every step.",
+      "team_ceo": "General Manager",
+      "team_china_ops": "China Operations Director",
+      "team_qc": "Quality Control Manager",
+      "team_crm": "Customer Relations Manager"
+    },
+    "testimonials": {
+      "label": "Client Reviews",
+      "title": "What Our Clients Say",
+      "items": [
+        { "text": "With GlobalBridge's support on our textile raw material imports, we achieved cost advantages and significantly reduced delivery times. They handled all customs processes seamlessly.", "name": "Kemal Arslan", "company": "Arslan Textiles", "city": "Bursa" },
+        { "text": "We completely resolved our quality issues with electronic products from China through their factory inspection services. Now every batch meets our standards.", "name": "Selin Çelik", "company": "TechPlus Inc.", "city": "Istanbul" },
+        { "text": "The team is very professional and accessible. They provide real-time updates via WhatsApp, leaving no room for uncertainty. Highly recommended.", "name": "Murat Öztürk", "company": "Öztürk Trading Ltd.", "city": "Izmir" }
+      ]
+    },
+    "faq": {
+      "label": "FAQ",
+      "title": "Frequently Asked Questions",
+      "items": [
+        { "q": "What is the minimum order quantity?", "a": "It varies by product category. Smaller batches are accepted for air cargo, while FCL or LCL options are available for sea freight. Contact us for details." },
+        { "q": "Do you handle customs procedures?", "a": "Yes, we manage all customs processes end-to-end — from HS code determination and document preparation to tariff optimization and customs clearance." },
+        { "q": "How long does delivery from China to Turkey take?", "a": "Approximately 25-35 business days by sea, and 5-7 business days by air cargo. We keep you informed at every step in real time." },
+        { "q": "Do you inspect supplier factories?", "a": "Yes, through our China office we conduct factory visits and quality control audits. Sample approval is done before the first shipment." },
+        { "q": "How do payment terms work?", "a": "We support Letter of Credit (L/C), wire transfer (T/T), and other international payment methods. Custom payment plans are available for each client." }
+      ]
+    }
   },
   "about": {
     "hero_title": "About Us",
