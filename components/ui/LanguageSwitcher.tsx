@@ -1,19 +1,22 @@
 'use client'
 import { useLocale } from 'next-intl'
-import { useRouter, usePathname } from '@/i18n/navigation'
+import { usePathname } from '@/i18n/navigation'
 import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import { LOCALE_LABELS, LOCALES, type Locale } from '@/lib/constants'
 
 export function LanguageSwitcher() {
   const locale = useLocale() as Locale
-  const router = useRouter()
-  const pathname = usePathname()
+  const pathname = usePathname() // locale-stripped path, e.g. "/hakkimizda"
   const [open, setOpen] = useState(false)
 
   function switchLocale(next: Locale) {
     setOpen(false)
-    router.replace(pathname, { locale: next })
+    // Build absolute URL: TR has no prefix, others get /xx prefix
+    const newUrl = next === 'tr' ? pathname : `/${next}${pathname}`
+    // Delete the NEXT_LOCALE cookie so it doesn't override
+    document.cookie = 'NEXT_LOCALE=; path=/; max-age=0'
+    window.location.href = newUrl
   }
 
   return (
