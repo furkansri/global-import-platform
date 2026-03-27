@@ -1,19 +1,22 @@
 'use client'
 import { useLocale } from 'next-intl'
-import { useState } from 'react'
+import { useRouter, usePathname } from '@/i18n/navigation'
+import { useState, useTransition } from 'react'
 import { ChevronDown } from 'lucide-react'
 import { LOCALE_LABELS, LOCALES, type Locale } from '@/lib/constants'
 
 export function LanguageSwitcher() {
   const locale = useLocale() as Locale
+  const router = useRouter()
+  const pathname = usePathname()
   const [open, setOpen] = useState(false)
+  const [, startTransition] = useTransition()
 
   function switchLocale(next: Locale) {
     setOpen(false)
-    // Get current path and strip any existing locale prefix
-    const currentPath = window.location.pathname
-    const strippedPath = currentPath.replace(/^\/(tr|en|ru|zh)/, '') || '/'
-    window.location.href = `/${next}${strippedPath}`
+    startTransition(() => {
+      router.replace(pathname, { locale: next })
+    })
   }
 
   return (
