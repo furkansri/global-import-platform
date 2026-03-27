@@ -12,11 +12,7 @@ export function LanguageSwitcher() {
 
   function switchLocale(next: Locale) {
     setOpen(false)
-    // Build absolute URL: TR has no prefix, others get /xx prefix
-    const newUrl = next === 'tr' ? pathname : `/${next}${pathname}`
-    // Delete the NEXT_LOCALE cookie so it doesn't override
-    document.cookie = 'NEXT_LOCALE=; path=/; max-age=0'
-    window.location.href = newUrl
+    window.location.href = `/${next}${pathname}`
   }
 
   return (
