@@ -1,0 +1,113 @@
+{
+  "common": {
+    "brand": "GlobalBridge",
+    "nav": {
+      "home": "首页",
+      "about": "关于我们",
+      "services": "服务",
+      "contact": "联系我们",
+      "cta": "获取报价"
+    },
+    "footer": {
+      "tagline": "从中国到土耳其，安心无忧。",
+      "rights": "版权所有。"
+    },
+    "whatsapp": "通过WhatsApp联系"
+  },
+  "home": {
+    "hero": {
+      "title": "从中国到土耳其，\n可靠且具有成本优势",
+      "subtitle": "凭借10余年的采购经验和中国50余家经过验证的供应商网络，我们是您业务增长的合作伙伴。",
+      "cta_primary": "获取免费报价",
+      "cta_secondary": "探索服务"
+    },
+    "stats": {
+      "experience": "年经验",
+      "deliveries": "次交货",
+      "countries": "个国家",
+      "satisfaction": "满意度"
+    },
+    "services_title": "我们的服务",
+    "services_subtitle": "从采购到送货上门的完整物流解决方案",
+    "quote_title": "询问您的产品",
+    "quote_subtitle": "分享您的产品详情，我们的专家将在24小时内提供个性化报价。",
+    "quote_fields": {
+      "product": "产品名称",
+      "category": "类别",
+      "quantity": "数量",
+      "name": "姓名",
+      "company": "公司名称",
+      "phone": "电话",
+      "submit": "获取免费报价",
+      "success": "您的请求已收到！我们将在24小时内与您联系。"
+    },
+    "process_title": "6步透明流程",
+    "process_steps": [
+      { "title": "请求", "desc": "分享您的产品和数量详情" },
+      { "title": "分析", "desc": "我们的专家确定最佳供应商" },
+      { "title": "报价", "desc": "收到个性化价格报价" },
+      { "title": "批准", "desc": "批准报价并签署协议" },
+      { "title": "发货", "desc": "您的产品从中国出发" },
+      { "title": "交货", "desc": "产品送货上门" }
+    ],
+    "trust_title": "每一步都安全",
+    "trust_subtitle": "符合国际标准的透明流程",
+    "cta_title": "立即获取报价",
+    "cta_subtitle": "抢在竞争对手之前以有竞争力的价格采购。",
+    "cta_button": "开始免费咨询"
+  },
+  "about": {
+    "hero_title": "关于我们",
+    "hero_subtitle": "深厚经验，值得信赖的合作伙伴",
+    "story_title": "我们的故事",
+    "story": "自2012年以来，我们一直在全球供应链中担任可靠的桥梁。我们以有竞争力的成本将来自中国等地的优质产品输送给土耳其领先的进口商。凭借十余年的经验，我们成功完成了数千次交货。",
+    "mission_title": "我们的使命",
+    "mission": "促进土耳其企业进入全球市场，让每一次交货都安全、透明、有利可图。",
+    "vision_title": "我们的愿景",
+    "vision": "成为土耳其最值得信赖的全球采购平台。",
+    "values": [
+      { "title": "信任", "desc": "我们信守承诺。" },
+      { "title": "透明", "desc": "我们与您分享每一步。" },
+      { "title": "速度", "desc": "我们珍惜时间。" },
+      { "title": "专业", "desc": "我们深知行业。" }
+    ],
+    "why_us_title": "为什么选择我们？",
+    "why_us": [
+      "中国50余家经过验证的供应商网络",
+      "10年以上海关和物流专业知识",
+      "4种语言客户支持",
+      "门到门交货保证",
+      "有竞争力的定价和透明的成本结构"
+    ]
+  },
+  "services": {
+    "hero_title": "我们的服务",
+    "hero_subtitle": "从采购到送货上门的完整解决方案",
+    "items": [
+      { "title": "海运", "desc": "从中国港口到土耳其的FCL/LCL集装箱运输。", "benefits": ["具有竞争力的运费", "每周定期航班", "FCL和LCL选项"] },
+      { "title": "空运", "desc": "紧急货物5-7个工作日从中国到土耳其。", "benefits": ["5-7个工作日交货", "门到门服务", "实时追踪"] },
+      { "title": "公路物流", "desc": "国内配送和中亚路线公路运输。", "benefits": ["灵活的交货时间表", "大型车队", "冷链选项"] },
+      { "title": "报关咨询", "desc": "所有进口流程的专业报关咨询。", "benefits": ["HS编码确定", "完整文件准备", "快速清关"] },
+      { "title": "供应管理", "desc": "中国工厂检验、质量控制和供应商管理。", "benefits": ["工厂访问和审计", "质量控制报告", "供应商谈判"] },
+      { "title": "货运保险", "desc": "符合国际标准的综合货运保险。", "benefits": ["全险保险", "快速损害赔偿", "国际保险证书"] }
+    ]
+  },
+  "contact": {
+    "hero_title": "联系我们",
+    "hero_subtitle": "我们将尽快回复您",
+    "form_title": "发送消息",
+    "fields": {
+      "name": "姓名",
+      "company": "公司名称",
+      "email": "电子邮件",
+      "message": "您的消息",
+      "submit": "发送",
+      "success": "消息已收到，谢谢！"
+    },
+    "info_title": "联系信息",
+    "email": "info@globalbridge.com",
+    "phone": "+90 5XX XXX XX XX",
+    "address": "伊斯坦布尔，土耳其",
+    "whatsapp_cta": "通过WhatsApp快速联系"
+  }
+}

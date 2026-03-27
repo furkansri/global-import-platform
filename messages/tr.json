@@ -1,0 +1,137 @@
+{
+  "common": {
+    "brand": "GlobalBridge",
+    "nav": {
+      "home": "Ana Sayfa",
+      "about": "Hakkımızda",
+      "services": "Hizmetler",
+      "contact": "İletişim",
+      "cta": "Teklif Al"
+    },
+    "footer": {
+      "tagline": "Dünyadan Türkiye'ye güvenle.",
+      "rights": "Tüm hakları saklıdır."
+    },
+    "whatsapp": "WhatsApp ile Ulaş"
+  },
+  "home": {
+    "hero": {
+      "title": "Çin'den Türkiye'ye,\nGüvenle ve Avantajlı Maliyetle",
+      "subtitle": "10 yılı aşkın tedarik deneyimi ve Çin'deki 50'den fazla güvenilir tedarikçi ağımızla, işletmenizin büyümesine ortak oluyoruz.",
+      "cta_primary": "Ücretsiz Teklif Al",
+      "cta_secondary": "Hizmetleri Keşfet"
+    },
+    "stats": {
+      "experience": "Yıl Deneyim",
+      "deliveries": "Teslimat",
+      "countries": "Ülke",
+      "satisfaction": "Memnuniyet"
+    },
+    "services_title": "Hizmetlerimiz",
+    "services_subtitle": "Tedarikten teslimat kapınıza kadar eksiksiz lojistik çözümler",
+    "quote_title": "Ürününüzü Sorun",
+    "quote_subtitle": "Ürün bilgilerinizi paylaşın, uzmanlarımız 24 saat içinde size özel fiyat teklifi sunsun.",
+    "quote_fields": {
+      "product": "Ürün Adı",
+      "category": "Kategori",
+      "quantity": "Miktar / Adet",
+      "name": "Ad Soyad",
+      "company": "Şirket Adı",
+      "phone": "Telefon",
+      "submit": "Ücretsiz Teklif Al",
+      "success": "Talebiniz alındı! 24 saat içinde sizinle iletişime geçeceğiz."
+    },
+    "process_title": "6 Adımda Şeffaf Süreç",
+    "process_steps": [
+      { "title": "Talep", "desc": "Ürün ve miktar bilgilerinizi paylaşın" },
+      { "title": "Analiz", "desc": "Uzmanlarımız en uygun tedarikçiyi belirler" },
+      { "title": "Teklif", "desc": "Size özel fiyat teklifi sunulur" },
+      { "title": "Onay", "desc": "Teklifi onaylayın, sözleşmeyi imzalayın" },
+      { "title": "Sevkiyat", "desc": "Ürünleriniz Çin'den yola çıkar" },
+      { "title": "Teslimat", "desc": "Ürünler kapınıza teslim edilir" }
+    ],
+    "trust_title": "Her Adımda Güvende",
+    "trust_subtitle": "Uluslararası standartlarda, belgeli ve şeffaf süreçlerle",
+    "cta_title": "Hemen Teklif Alın",
+    "cta_subtitle": "Rakiplerinizden önce avantajlı fiyatlarla tedarik yapın.",
+    "cta_button": "Ücretsiz Görüşme Başlat"
+  },
+  "about": {
+    "hero_title": "Hakkımızda",
+    "hero_subtitle": "Köklü deneyim, güvenilir ortaklık",
+    "story_title": "Hikayemiz",
+    "story": "2012 yılından bu yana global tedarik zincirinde güvenilir bir köprü görevi üstlendik. Türkiye'nin önde gelen ithalatçı firmalarına Çin başta olmak üzere dünyanın dört bir yanından kaliteli ürünleri uygun maliyetle ulaştırıyoruz. On yılı aşkın deneyimimizle binlerce teslimatı başarıyla tamamladık.",
+    "mission_title": "Misyonumuz",
+    "mission": "Türkiye'deki işletmelerin dünya pazarına erişimini kolaylaştırmak ve her teslimatı güvenli, şeffaf ve karlı kılmak.",
+    "vision_title": "Vizyonumuz",
+    "vision": "Türkiye'nin en güvenilir global tedarik platformu olmak; teknoloji ve insan odaklı yaklaşımımızla sektörde referans noktası haline gelmek.",
+    "values": [
+      { "title": "Güven", "desc": "Söz verdiğimizi yerine getiririz." },
+      { "title": "Şeffaflık", "desc": "Her adımı sizinle paylaşırız." },
+      { "title": "Hız", "desc": "Zamanın değerini biliriz." },
+      { "title": "Uzmanlık", "desc": "Sektörü içten tanırız." }
+    ],
+    "why_us_title": "Neden Biz?",
+    "why_us": [
+      "Çin'de 50+ onaylı tedarikçi ağı",
+      "10+ yıllık gümrük ve lojistik deneyimi",
+      "4 dilde müşteri desteği",
+      "Kapıdan kapıya teslimat garantisi",
+      "Rekabetçi fiyat ve şeffaf maliyet yapısı"
+    ]
+  },
+  "services": {
+    "hero_title": "Hizmetlerimiz",
+    "hero_subtitle": "Tedarikten teslimat kapınıza kadar eksiksiz çözümler",
+    "items": [
+      {
+        "title": "Deniz Taşımacılığı",
+        "desc": "Çin limanlarından Türkiye'ye FCL/LCL konteyner sevkiyatı. Büyük hacimli yükler için en ekonomik çözüm.",
+        "benefits": ["Rekabetçi navlun fiyatları", "Haftalık düzenli seferler", "FCL ve LCL seçenekleri"]
+      },
+      {
+        "title": "Hava Kargo",
+        "desc": "Acil ve değerli yükler için hızlı hava kargo çözümleri. Çin'den Türkiye'ye 5-7 iş günü.",
+        "benefits": ["5-7 iş günü teslimat", "Kapıdan kapıya servis", "Anlık takip sistemi"]
+      },
+      {
+        "title": "Kara Lojistiği",
+        "desc": "Yurt içi dağıtım ve Orta Asya güzergahlarında karayolu taşımacılığı.",
+        "benefits": ["Esnek teslimat takvimi", "Geniş araç filosu", "Soğuk zincir seçeneği"]
+      },
+      {
+        "title": "Gümrük Danışmanlığı",
+        "desc": "Tüm ithalat süreçlerinde uzman gümrük danışmanlığı. Belgeler, tarife ve mevzuat.",
+        "benefits": ["GTİP tespiti ve tarife optimizasyonu", "Tüm belge hazırlığı", "Hızlı gümrük çıkışı"]
+      },
+      {
+        "title": "Tedarik Yönetimi",
+        "desc": "Çin'deki fabrika denetimi, kalite kontrolü ve tedarikçi yönetimi hizmetleri.",
+        "benefits": ["Fabrika ziyareti ve denetim", "Kalite kontrol raporları", "Tedarikçi müzakeresi"]
+      },
+      {
+        "title": "Kargo Sigortası",
+        "desc": "Uluslararası standartlarda kapsamlı kargo sigortası. Her yük, her güzergah.",
+        "benefits": ["Kapsamlı all-risk sigorta", "Hızlı hasar tazminatı", "Uluslararası sigorta sertifikası"]
+      }
+    ]
+  },
+  "contact": {
+    "hero_title": "İletişim",
+    "hero_subtitle": "Size en kısa sürede dönüş yapacağız",
+    "form_title": "Mesaj Gönderin",
+    "fields": {
+      "name": "Ad Soyad",
+      "company": "Şirket Adı",
+      "email": "E-posta",
+      "message": "Mesajınız",
+      "submit": "Gönder",
+      "success": "Mesajınız alındı, teşekkür ederiz!"
+    },
+    "info_title": "İletişim Bilgileri",
+    "email": "info@globalbridge.com",
+    "phone": "+90 5XX XXX XX XX",
+    "address": "İstanbul, Türkiye",
+    "whatsapp_cta": "WhatsApp'tan Hızlı Ulaş"
+  }
+}
